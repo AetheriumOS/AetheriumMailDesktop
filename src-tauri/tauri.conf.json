@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Aetherium Mail",
+  "version": "0.1.0",
+  "identifier": "net.aetherium.mail.desktop",
+  "build": {
+    "frontendDist": "../src",
+    "devUrl": "https://mail.aetheriumos.com",
+    "beforeDevCommand": "",
+    "beforeBuildCommand": ""
+  },
+  "app": {
+    "windows": [
+      { "title": "Aetherium Mail", "width": 1400, "height": 900, "resizable": true }
+    ],
+    "security": { "csp": null }
+  },
+  "bundle": { "active": true, "targets": "all" }
+}
