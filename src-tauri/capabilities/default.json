@@ -1,0 +1,7 @@
+{
+  "$schema": "../gen/schemas/capability.json",
+  "identifier": "default",
+  "description": "Default capabilities",
+  "windows": ["*"],
+  "permissions": ["core:default", "shell:allow-open"]
+}
